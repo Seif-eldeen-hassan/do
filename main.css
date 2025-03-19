@@ -1,0 +1,178 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 98%)
+}
+
+.upper_page{
+    width: 100%;
+    height: 40%;
+    background-image: url("./images/bg-desktop-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mode_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 38px;
+}
+
+.to_do_input{
+    width: 540px;
+    border-radius: 8px;
+    height: 65px;
+    padding-left: 60px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5px;
+    color: hsl(235, 19%, 35%)
+}
+
+.empty_circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+    top: 3px;
+    border: 1px solid hsl(233, 11%, 84%);
+}
+
+.empty_task{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid hsl(233, 11%, 84%);
+}
+
+.input-container{
+    display: flex;
+    position: relative;
+
+}
+
+.title{
+    color: white;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 12px;
+
+}
+
+.tasks{
+    width: 600px;
+    position: absolute;
+    top: 300px;
+    z-index: 100;
+    border-radius: 8px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.check_icon{
+    width: 11px;
+    height: 11px;
+    border-radius: 20px;
+    padding: 6px;
+    background: linear-gradient(135deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+}
+
+.task{
+    width: 93.4%;
+    height: 28px;
+    background-color: white;
+    padding: 15px 20px 5px 20px;
+    display: flex;
+    gap:20px;
+}
+
+.task_discription{
+    color: hsl(235, 19%, 35%);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid hsl(236, 33%, 92%,0.5);
+    margin-bottom: 0px;
+}
+
+.task_footer{
+    width: 100%;
+    height: 55px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.items_number{
+    color: hsl(235, 19%, 35% , 0.4);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.categories{
+    display: flex;
+    gap: 20px;
+    color: hsl(234, 11%, 52%,0.7);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7px;
+    margin-left: 120px;
+    margin-top: 1px;
+}
+
+.category{
+    cursor: pointer;
+}
+
+.category:hover{
+    color: hsl(235, 19%, 35%);
+}
+
+.clear{
+    color: hsl(235, 19%, 35% , 0.4);
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.clear:hover{
+    color: hsl(235, 19%, 35%);
+}
+
+.choosed_category{
+    color:  hsl(220, 98%, 61%) !important;
+}
